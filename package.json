@@ -1,0 +1,21 @@
+{
+  "name": "large-static-bug",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "astro": "astro",
+    "build": "astro check && astro build",
+    "dev": "astro dev",
+    "preview": "astro preview",
+    "start": "astro dev"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.5.10",
+    "@astrojs/starlight": "^0.22.1",
+    "astro": "^4.3.5",
+    "astro-sst": "2.41.5",
+    "sharp": "^0.32.5",
+    "sst": "ion",
+    "typescript": "^5.4.5"
+  }
+}
